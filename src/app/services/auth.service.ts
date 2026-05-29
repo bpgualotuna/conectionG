@@ -203,8 +203,8 @@ export class AuthService {
       console.warn('Could not disable auto select:', e);
     }
 
-    // Redirect to the session expired component
-    this.router.navigate(['/session-expired']);
+    // Redirect to the login component directly
+    this.router.navigate(['/login']);
   }
 
   /**
